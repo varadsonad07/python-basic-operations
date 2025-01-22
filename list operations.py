@@ -1,7 +1,5 @@
 # Python Program Demonstrating Various List Operations
 
-# Experiment 4A: Basic List Operations
-
 # Creating a list
 my_list = [1, 2, 3, 4, 5, 6]
 
@@ -30,13 +28,13 @@ print("Length of the list:", len(my_list))
 # Checking if an element is present in the list
 print("Is 5 in the list?", 5 in my_list)
 
-# Experiment 4B: Slicing the List
+#  Slicing the List
 print("\nExperiment 4B: Slicing the List")
 print("Element at index 3:", my_list[3])
 print("Elements from index 1 to 2:", my_list[1:3])
 print("Elements from index 2 to 3:", my_list[2:4])
 
-# Experiment 4C: Sorting the List
+# Sorting the List
 print("\nExperiment 4C: Sorting the List")
 number_list = [50, 30, 10, 20, 40]
 
@@ -55,13 +53,13 @@ smallest = min(xyz_list)
 print("Largest number in the list:", largest)
 print("Smallest number in the list:", smallest)
 
-# Experiment 4E: Reversing the List
+# Reversing the List
 print("\nExperiment 4E: Reversing the List")
 abc_list = [77, 17, 29, 10]
 abc_list.reverse()
 print("Reversed list:", abc_list)
 
-# Experiment 4F: Nested List Operations
+# Nested List Operations
 print("\nExperiment 4F: Nested List Operations")
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
